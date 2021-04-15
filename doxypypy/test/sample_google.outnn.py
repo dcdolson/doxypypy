@@ -20,7 +20,8 @@
 # @param		keys	A sequence of strings representing the key of each table row
 #            to fetch.
 # @param		other_silly_variable	Another optional variable, that has a much
-#            longer name than the other args, and which does nothing.
+#            longer name than the other args, and which does
+#            nothing.
 #
 # @return
 #        A dict mapping keys to the corresponding table row data
