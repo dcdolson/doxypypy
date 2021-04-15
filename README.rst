@@ -203,3 +203,12 @@ Doxygen properly found and executed doxypypy.
 .. _PEP 257: http://www.python.org/dev/peps/pep-0257/
 .. _Google Python Style Guide: https://google.github.io/styleguide/pyguide.html?showone=Comments#Comments
 
+Creating a Docker Container
+---------------------------
+
+The Dockerfile builds a workable doxygen with doxypypy from the python:alpine base.
+
+.. code-block:: shell
+
+    docker build --tag <your-tag> .
+
