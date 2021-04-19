@@ -79,7 +79,8 @@ class AstWalker(NodeVisitor):
         ' @file ': regexpCompile(r"^(\s*File:\s*)(.*)$", IGNORECASE),
         ' @version: ': regexpCompile(r"^(\s*Version:\s*)(.*)$", IGNORECASE),
         ' @note ': regexpCompile(r"^(\s*Note:\s*)(.*)$", IGNORECASE),
-        ' @warning ': regexpCompile(r"^(\s*Warning:\s*)(.*)$", IGNORECASE)
+        ' @warning ': regexpCompile(r"^(\s*Warning:\s*)(.*)$", IGNORECASE),
+        ' @todo ': regexpCompile(r"^(\s*Todo:\s*)(.*)$", IGNORECASE)
     }
     __argsStartRE = regexpCompile(r"^(\s*(?:(?:Keyword\s+)?"
                                   r"(?:A|Kwa)rg(?:ument)?|Attribute)s?"
